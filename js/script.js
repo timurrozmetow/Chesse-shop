@@ -59,7 +59,7 @@ function add(a, b, c, t) {
 
 function openm() {
     thanks.classList.remove('none');
-    document.body.style.overflow = '';
+//     document.body.style.overflow = '';
 
 }
 
