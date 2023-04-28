@@ -34,12 +34,12 @@ white.addEventListener('click', () => {
 button.forEach(e => {
     e.addEventListener('click', () => {
         modal.classList.toggle('none');
-        document.body.style.overflow = 'hidden';
+        // document.body.style.overflow = 'hidden';
     })
 });
 x.addEventListener('click', () => {
     modal.classList.toggle('none');
-    document.body.style.overflow = '';
+    // document.body.style.overflow = '';
 
 });
 
