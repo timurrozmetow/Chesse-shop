@@ -34,12 +34,10 @@ white.addEventListener('click', () => {
 button.forEach(e => {
     e.addEventListener('click', () => {
         modal.classList.toggle('none');
-        // document.body.style.overflow = 'hidden';
     })
 });
 x.addEventListener('click', () => {
     modal.classList.toggle('none');
-    // document.body.style.overflow = '';
 
 });
 
@@ -59,7 +57,6 @@ function add(a, b, c, t) {
 
 function openm() {
     thanks.classList.remove('none');
-    // document.body.style.overflow = '';
 
 }
 
@@ -84,7 +81,10 @@ first.forEach(e => {
     }, 50);
 
 });
-console.log(first);
+const nav= document.getElementById('nav-icon2');
+nav.addEventListener('click', () =>{
+    nav.classList.toggle('open')
+})
 add(pros, number, cons, t);
 add(pros1, number1, cons1, t1);
 add(pros2, number2, cons2, t2);
